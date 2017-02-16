@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CRUD</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <form id="create_user_form">
+    <h2>Create user</h2>
+    <div class="field">
+      <label for="id_name">Name</label>
+      <input id="id_name" type="text" name="name">
+      <div class="error_msg"></div>
+    </div>
+    <div class="field">
+      <label for="id_job">Job</label>
+      <input id="id_job" type="text" name="job">
+      <div class="error_msg"></div>
+    </div>
+    <button type="submit">Submit</button>
+    <div id="display_container"></div>
+  </form>
+  <script
+    src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+    crossorigin="anonymous"></script>
+  <script src="serverapi.js"></script>
+  <script src="formUtils.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

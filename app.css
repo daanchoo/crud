@@ -1,0 +1,30 @@
+body {
+  font-size: 18px;
+}
+
+form {
+  background-color: #bbb;
+  padding: 20px;
+  margin: 100px auto;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+}
+input {
+  font-size: 16px;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  color: #333;
+}
+
+.error_msg {
+  color: indianred;
+}
+
